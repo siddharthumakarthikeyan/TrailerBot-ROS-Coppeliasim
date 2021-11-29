@@ -1,0 +1,13 @@
+<?xml version="0.1.0"?>
+
+<launch>
+    
+    <node name="robot_nav_teleop" pkg="coppeliasim_ws" type="teleop.py" output="screen" > 
+        <remap from="cmd_vel" to="/robot/twist" />
+        <param name="speed" value="1.0" />
+        <param name="turn" value="1.5" />
+        <param name="repeat_rate" value="0.0" />
+        <param name="key_timeout" value="0.0" />
+    </node>
+
+</launch>
