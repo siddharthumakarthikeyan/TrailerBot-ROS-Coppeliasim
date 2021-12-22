@@ -1,4 +1,4 @@
-# TrailerBot ROS Coppeliasim
+# TrailerBot ROS Coppeliasim (Tele Op)
 ## SLAM of Trailer based Autonomous Ground Vehicle using ROS and Coppeliasim
 
 <object width="425" height="350">
